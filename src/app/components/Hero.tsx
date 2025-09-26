@@ -44,10 +44,11 @@ export default function Hero() {
                 className="absolute z-10 text-center px-4"
             >
                 <h1 className="text-6xl md:text-8xl font-bold mb-4">
-                    Hi, I’m [Your Name],
+                    Hi, I&apos;m [Your Name],
                     <br />
                     a Frontend Developer
                 </h1>
+
                 <motion.div
                     animate={{ y: [0, -10, 0] }}
                     transition={{ duration: 2, repeat: Infinity }}
